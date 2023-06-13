@@ -8,10 +8,10 @@ import ArrowLeft from "../../svg/ArrowLeft";
 
 const LowerNav = () => {
   return (
-    <div className="bg-black h-30 w-full pt-5">
+    <div className=" h-30 w-full pt-5">
       <ScrollMenu className=''
-        LeftArrow={<Button svg={<ArrowLeft />} />}
-        RightArrow={<Button className="rotate-180" svg={<ArrowLeft />} />}
+        // LeftArrow={<Button svg={<ArrowLeft />} />}
+        // RightArrow={<Button className="rotate-180" svg={<ArrowLeft />} />}
       >
         <div className="h-[100px] flex flex-nowrap">
           <ProfileBage src={face} name="italo-mhjhjhelo" />

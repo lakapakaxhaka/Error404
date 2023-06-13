@@ -4,7 +4,7 @@ import HeroSection from "../components/HeroSection/HeroSection";
 
 const Home = () => {
   return (
-    <div className="">
+    <div className="bg-black">
       <Header />
       <HeroSection />
     </div>
